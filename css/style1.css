@@ -1,0 +1,64 @@
+body{
+	background-color: #f7f2f2;
+}
+
+.lizContainer {
+	background-color: #FFF;
+	border-color: #e0dfdf;
+	border-width: 0.5px;
+	border-style: solid;
+	position: relative;
+	padding-top: 15px;
+}
+
+.lizContainer1 {
+	background-color: #FFF;
+	border-color: #e0dfdf;
+	border-width: 0.5px;
+	border-radius: 5px;
+	border-style: solid;
+	padding: 15px;
+	margin: 15px 28px 15px 28px;
+}
+
+.lizImg{
+	margin-left: 30px;
+	margin-right: 22px;
+	margin-bottom: 15px;
+	height: 165px;
+	width: 165px;
+}
+
+.lizTxtCont{
+	position: absolute;
+	top: 35px;
+	height: 165px;
+	display: inline-block;
+}
+
+.lizh1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 40pt;
+}
+
+.lizP1{
+	font-weight: 600;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22pt;
+	color: lightgreen;
+}
+.lizProj {
+	margin-left: 28px;
+	margin-top: 45px;
+	margin-bottom: -10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #434343;
+	font-weight: 700;
+	font-size: 22pt;
+}
+
+.lizFooter {
+	background-color: #000;
+	height: 45px;
+}
