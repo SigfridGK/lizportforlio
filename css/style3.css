@@ -1,0 +1,45 @@
+.rr1 {
+    height: 600px;
+}
+.lizImg1 {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 36.7%;
+    height: 600px;
+    background-image: url('../img/gk-app/scaqr.png'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.lizImg2 {
+    display: inline-block;
+    width: 35.5%;
+    height: 500px;
+    background-image: url('../img/gk-app/calendar.png'); 
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.lizVidContainer2{
+	border-radius: 3px;
+	width: 19.3%;
+	display: inline-block;
+	background-color: #fff;
+	border: #cbcbcb;
+	border-width: 0.5;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.lizPdyVidContainer1{
+	border-radius: 3px;
+	width: 23.9%;
+	display: inline-block;
+	background-color: #fff;
+	border: #cbcbcb;
+	border-width: 0.5;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}

@@ -1,20 +1,32 @@
 body{
-	background-color: #f7f2f2;
+	background-color: #fff;
 }
-
+.lizContent {
+	background-color: #f7f2f2;
+	padding-top: 70px;
+}
+.lizNavPlaceHolder {
+	height: 100px;
+}
 .lizContainer {
+	width: 100%;
 	background-color: #FFF;
-	border-color: #e0dfdf;
+	border-top: #fff;
+	border-bottom: #e0dfdf;
 	border-width: 0.5px;
 	border-style: solid;
-	position: relative;
 	padding-top: 15px;
+	position: fixed;
+	top: 0;
+}
+
+.lizTxtCont{
+	display: inline-block;
 }
 
 .lizContainer1 {
-	background-color: #FFF;
-	border-color: #e0dfdf;
-	border-width: 0.5px;
+	border-color: #fff;
+	border-width: 1.5px;
 	border-radius: 5px;
 	border-style: solid;
 	padding: 15px;
@@ -22,30 +34,24 @@ body{
 }
 
 .lizImg{
+	margin-top: -50px;
+	margin-bottom: 15px;
 	margin-left: 30px;
 	margin-right: 22px;
-	margin-bottom: 15px;
-	height: 165px;
-	width: 165px;
-}
-
-.lizTxtCont{
-	position: absolute;
-	top: 35px;
-	height: 165px;
-	display: inline-block;
+	height: 80px;
+	width: 80px;
 }
 
 .lizh1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 700;
-	font-size: 40pt;
+	font-size: 28pt;
 }
 
 .lizP1{
 	font-weight: 600;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 22pt;
+	font-size: 18pt;
 	color: lightgreen;
 }
 .lizProj {
@@ -60,5 +66,5 @@ body{
 
 .lizFooter {
 	background-color: #000;
-	height: 45px;
+	height: 50px;
 }
