@@ -31,14 +31,6 @@ app.controller('PdyFlutterAppCtrl', function($scope) {
             VidURL: "https://streamable.com/e/i86gj3"
         },
         {
-            AppName: "GK Earn",
-            VidURL: ""
-        },
-        {
-            AppName: "E-Games",
-            VidURL: ""
-        },
-        {
             AppName: "Peoples Jeep Unli Ride",
             VidURL: "https://streamable.com/e/8if2lk"
         },
