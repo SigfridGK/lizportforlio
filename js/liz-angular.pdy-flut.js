@@ -1,54 +1,34 @@
 app.controller('PdyFlutterAppCtrl', function($scope) {
-    $scope.activeVidURL = "";
-
+    $scope.activeVidURL = "https://streamable.com/e/bfhx6h";
+    
     $scope.click = function(url){
         $scope.activeVidURL = url;
     }
 
     $scope.menuList = [
         {
-            AppName: "Buy Load",
-            VidURL: "https://streamable.com/e/gup0a8"
+            AppName: "Home Payday",
+            VidURL: "https://streamable.com/e/haekri"
         },
         {
             AppName: "Pay Via QR",
-            VidURL: "https://streamable.com/e/hvzesv"
+            VidURL: "https://streamable.com/e/aeiusb"
+        },
+        {
+            AppName: "Voucher Invetory",
+            VidURL: "https://streamable.com/e/hticzz"
         },
         {
             AppName: "Pay Bills",
-            VidURL: ""
+            VidURL: "https://streamable.com/e/qyel5j"
         },
         {
-            AppName: "Buy Voucher",
-            VidURL: ""
+            AppName: "Request Amount",
+            VidURL: "https://streamable.com/e/tpolux"
         },
         {
-            AppName: "COOP and Apply COOP Loan",
-            VidURL: ""
-        },
-        {
-            AppName: "GK Store",
-            VidURL: ""
-        },
-        {
-            AppName: "COOP Play To Save Lotto",
-            VidURL: ""
-        },
-        {
-            AppName: "Free SMS",
-            VidURL: ""
-        },
-        {
-            AppName: "Payday Today",
-            VidURL: ""
-        },
-        {
-            AppName: "RFID Voucher Modern Jeep",
-            VidURL: ""
-        },
-        {
-            AppName: "NL RFID Reloading",
-            VidURL: ""
+            AppName: "Buy Load",
+            VidURL: "https://streamable.com/e/i86gj3"
         },
         {
             AppName: "GK Earn",
@@ -67,12 +47,12 @@ app.controller('PdyFlutterAppCtrl', function($scope) {
 
     $scope.otherVid = [
         {
-            AppName: "QR Complete Transaction & View History",
-            VidURL: "https://streamable.com/e/vjsmqv"
+            AppName: "Transactions and Inventory",
+            VidURL: "https://streamable.com/e/nrmsi1"
         },
-        {
-            AppName: "GK Support Chat",
-            VidURL: "https://streamable.com/e/rabjq6"
-        },
+        // {
+        //     AppName: "GK Support Chat",
+        //     VidURL: "https://streamable.com/e/rabjq6"
+        // },
     ];
 });

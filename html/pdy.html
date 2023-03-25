@@ -5,13 +5,16 @@
             <div class="col-sm-7 lizRowColStyle">
 
                 <p class="lizP">Services</p>
-                <button class="lizMenuBtn" ng-click="click('https://streamable.com/e/gup0a8')">
-                    Watch GK Login
+                <button class="lizMenuBtn" ng-click="click('https://streamable.com/e/3hwhiw')">
+                    Watch Payday Login
                 </button>
 
                 <ul>
                     <li ng-repeat="menu in menuList">
-                        <button class="lizMenuBtn1" ng-click="click(menu.VidURL)">
+                        <button 
+                            class="lizMenuBtn1" 
+                            ng-class="{lizMenuBtnActive: menu.VidURL == activeVidURL}" 
+                            ng-click="click(menu.VidURL)">
                             {{menu.AppName}}
                         </button>
                     </li> 
@@ -20,7 +23,10 @@
                 <p class="lizP2">Others--</p>
                 <ul style="margin-top: -20px">
                     <li ng-repeat="menu in otherVid">
-                        <button class="lizMenuBtn1" ng-click="click(menu.VidURL)">
+                        <button 
+                            class="lizMenuBtn1" 
+                            ng-class="{lizMenuBtnActive: menu.VidURL == activeVidURL}" 
+                            ng-click="click(menu.VidURL)">
                             {{menu.AppName}}
                         </button>
                     </li> 

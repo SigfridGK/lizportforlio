@@ -1,5 +1,5 @@
 app.controller('PdyAppCtrl', function($scope) {
-    $scope.activeVidURL = "";
+    $scope.activeVidURL = "https://streamable.com/e/bfhx6h";
 
     $scope.click = function(url){
         $scope.activeVidURL = url;
@@ -7,72 +7,27 @@ app.controller('PdyAppCtrl', function($scope) {
 
     $scope.menuList = [
         {
-            AppName: "Buy Load",
-            VidURL: "https://streamable.com/e/gup0a8"
+            AppName: "Payday Home",
+            VidURL: "https://streamable.com/e/e23pr3"
         },
         {
-            AppName: "Pay Via QR",
-            VidURL: "https://streamable.com/e/hvzesv"
+            AppName: "Request Amount",
+            VidURL: "https://streamable.com/e/wcpr4p"
         },
         {
-            AppName: "Pay Bills",
-            VidURL: ""
+            AppName: "Bank Transfer",
+            VidURL: "https://streamable.com/e/v48pc2"
         },
         {
-            AppName: "Buy Voucher",
-            VidURL: ""
-        },
-        {
-            AppName: "COOP and Apply COOP Loan",
-            VidURL: ""
-        },
-        {
-            AppName: "GK Store",
-            VidURL: ""
-        },
-        {
-            AppName: "COOP Play To Save Lotto",
-            VidURL: ""
-        },
-        {
-            AppName: "Free SMS",
-            VidURL: ""
-        },
-        {
-            AppName: "Payday Today",
-            VidURL: ""
-        },
-        {
-            AppName: "RFID Voucher Modern Jeep",
-            VidURL: ""
-        },
-        {
-            AppName: "NL RFID Reloading",
-            VidURL: ""
-        },
-        {
-            AppName: "GK Earn",
-            VidURL: ""
-        },
-        {
-            AppName: "E-Games",
-            VidURL: ""
-        },
-        {
-            AppName: "Peoples Jeep Unli Ride",
-            VidURL: "https://streamable.com/e/8if2lk"
-        },
-        
+            AppName: "Services",
+            VidURL: "https://streamable.com/e/87s36z"
+        }
     ];
 
     $scope.otherVid = [
         {
-            AppName: "QR Complete Transaction & View History",
-            VidURL: "https://streamable.com/e/vjsmqv"
-        },
-        {
-            AppName: "GK Support Chat",
-            VidURL: "https://streamable.com/e/rabjq6"
+            AppName: "Complete Bank Transfer and Chat Support",
+            VidURL: "https://streamable.com/e/k143rr"
         },
     ];
 });
