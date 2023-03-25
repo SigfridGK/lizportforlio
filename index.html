@@ -8,14 +8,16 @@
 	<link rel="stylesheet" href="css/style1.css">
 	<link rel="stylesheet" href="css/style2.css">
 	<link rel="stylesheet" href="css/style3.css">
-	<script src="js/js1.js"></script>
+	<script src="js/js1.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 	</head>
 
-  <body>
+  <body ng-app="myApp">
+
 	<div class="lizContent">
 		<div class="lizNavPlaceHolder">
 		</div>
-		<div class="lizContainer">
+		<div class="lizContainer" style="z-index: 999;">
 			<div>
 				<img class="lizImg" src="img/110143140.png" alt="profile">
 				<div class="lizTxtCont">
@@ -24,237 +26,27 @@
 				</div>
 			</div>
 		</div>
-		<div class="shadd" id="test">
+		<div class="shadd" id="addShad" style="z-index: 997;">
 		</div>
 
-		<div class="lizContainer1">
-			<p class="lizh2">GoodKredit PH</p>
-			<div class="lizVidContainer1" style="margin-bottom: 115px;">
-				<iframe src="https://streamable.com/e/gup0a8" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
-			<div style="display: inline-block; width: 20%;">
-				<div class="lizImgContainer" style="margin-left: 15px; margin-bottom: 15px;background-image: url('img/gk-app/home1.png');">
-				</div>
-				<div class="lizImgContainer" style="margin-left: 15px; background-image: url('img/gk-app/promo.png');">
-				</div>
-			</div>
-			<div class="lizVidContainer1" style="margin-bottom: 115px; margin-left: 15px;">
-				<iframe src="https://streamable.com/e/hvzesv" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
-			<div class="lizImg1">
-			</div>
-			<div class="lizImg2">
-			</div>
-			<div class="lizVidContainer1" style="margin-top:15px; margin-left: 15px;">
-				<iframe src="https://streamable.com/e/vjsmqv" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
-			<div class="lizVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/5t4f9k" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
-			<div class="lizVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/rabjq6" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
-			<div class="lizVidContainer2" style="margin-top: 7px;">
-				<iframe src="https://streamable.com/e/8if2lk" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
-			<div class="lizVidContainer2" style="margin-top: 15px; margin-left: 7px;">
-				<iframe src="https://streamable.com/e/dzliit" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
-			<div class="lizVidContainer2" style="margin-top: 15px; margin-left: 7px;">
-				<iframe src="https://streamable.com/e/a4xlk0" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
-			<div class="lizVidContainer2" style="margin-top: 15px; margin-left: 7px;">
-				<iframe src="https://streamable.com/e/53pmbb" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
-			<div class="lizVidContainer2" style="margin-top: 15px; margin-left: 7px;">
-				<iframe src="https://streamable.com/e/4xmy5x" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid" autoplay="1">
-				</iframe>
-			</div>
+		<div ng-controller="GKAppCtrl" >
+			<div ng-include="'html/gkhtml.html'"></div> 
 		</div>
-	
-		<div class="lizContainer1" style="margin-top: 35px;">
-			<p class="lizh2">Payday Today </p>
-			<div class="lizPdyVidContainer1">
-				<iframe src="https://streamable.com/e/3hwhiw" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/e23pr3" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/87s36z" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/v48pc2" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-top: 15px;">
-				<iframe src="https://streamable.com/e/k143rr" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/wcpr4p" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
+		
+		<div ng-controller="PdyAppCtrl" style="margin-top: 35px;">
+			<div ng-include="'html/pdy.html'"></div> 
 		</div>
 
-		<div class="lizContainer1" style="margin-top: 35px;">
-			<p class="lizh2">Payday Today - Flutter </p>
-			<div class="lizPdyVidContainer1">
-				<iframe src="https://streamable.com/e/bfhx6h" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/haekri" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/aeiusb" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/hticzz" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-top: 15px;">
-				<iframe src="https://streamable.com/e/qyel5j" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/tpolux" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/nrmsi1" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/i86gj3" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
+		<div ng-controller="PdyFlutterAppCtrl" style="margin-top: 35px;">
+			<div ng-include="'html/pdy-flutter.html'"></div> 
 		</div>
-	
+
 		<div class="lizContainer1" style="margin-top: 35px;">
 			<p class="lizh2">GiftBeam</p>
-			<div class="lizPdyVidContainer1">
-				<iframe src="https://streamable.com/e/bfhx6h" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/haekri" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/aeiusb" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/hticzz" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-top: 15px;">
-				<iframe src="https://streamable.com/e/qyel5j" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/tpolux" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/nrmsi1" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/i86gj3" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
 		</div>
 	
 		<div class="lizContainer1" style="margin-top: 35px;">
 			<p class="lizh2">GiftBeam - Flutter </p>
-			<div class="lizPdyVidContainer1">
-				<iframe src="https://streamable.com/e/bfhx6h" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/haekri" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/aeiusb" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/hticzz" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-top: 15px;">
-				<iframe src="https://streamable.com/e/qyel5j" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/tpolux" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/nrmsi1" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
-			<div class="lizPdyVidContainer1" style="margin-left: 15px;">
-				<iframe src="https://streamable.com/e/i86gj3" frameborder="0" width="100%" height="100%" 
-				allowfullscreen class="lizVid">
-				</iframe>
-			</div>
 		</div>
 	
 		<div class="lizFooter" style="margin-top: 85px;">
@@ -263,5 +55,8 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script src="js/liz-angular.js"></script>
+	<script src="js/liz-angular-pdy.js"></script>
+	<script src="js/liz-angular.pdy-flut.js"></script>
   </body>
 </html>

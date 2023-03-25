@@ -5,6 +5,24 @@
 	font-size: 17pt;
 }
 
+.lizP {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+	font-size: 14pt;
+	color: #777777;
+}
+
+.lizP2 {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 500;
+	font-size: 12pt;
+	color: #777777;
+}
+
 @keyframes shadowPulse {
     0% {
         box-shadow: 0px 0px 5px 0px hsla(0, 0%, 0%, 1);
@@ -28,7 +46,7 @@
 	top: 0;
 	width: 100%;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
-	height: 120px;
+	height: 110px;
 }
 
 .lizVidContainer1{
@@ -47,6 +65,11 @@
 	width: 100%; 
 	height:500px; 
 	display: block;
+}
+
+.lizVid2{
+	width: 100%; 
+	height:500px; 
 }
 
 .lizImgContainer{
