@@ -13,12 +13,14 @@
 	</head>
 
   <body ng-app="myApp">
-
-	<div ng-include="'html/intro.html'"></div> 
+	
+	<div ng-controller="IntroCtrl" >
+		<div ng-include="'html/intro.html'"></div> 
+	</div>
 
 	<div class="lizContent">
 		<p class="lizP2Intro">
-			GoodKredit - Payday Today - GiftBeam
+			GoodKredit * Payday Today * GiftBeam
 		</p>
 		<div class="lizContainer" id="customNav" style="z-index: 999; display: none;">
 			<div>
@@ -62,5 +64,6 @@
 	<script src="js/liz-angular-pdy.js"></script>
 	<script src="js/liz-angular.pdy-flut.js"></script>
 	<script src="js/liz-angular-gb.js"></script>
+	<script src="js/liz-angular-intro.js"></script>
   </body>
 </html>

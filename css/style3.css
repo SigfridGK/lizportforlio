@@ -165,9 +165,9 @@ liss {
 	width: 100%;
 	font-weight: 900;
 	font-family: 'Courier New', Courier, monospace;
-	font-size: 32pt;
+	font-size: 27pt;
 	text-align: center;
-	color: #999;
+	color: #aaa	;
 }
 
 .center {
