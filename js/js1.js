@@ -14,7 +14,6 @@ window.addEventListener("scroll", (event) => {
 
 
     var opacityVal = (window.innerHeight - scroll) / 100
-    console.log(window.innerHeight +"-"+scroll +" = " + opacityVal)
     
     $("#lizBGImg").css('opacity', opacityVal);
 });
