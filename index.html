@@ -14,10 +14,13 @@
 
   <body ng-app="myApp">
 
+	<div ng-include="'html/intro.html'"></div> 
+
 	<div class="lizContent">
-		<div class="lizNavPlaceHolder">
-		</div>
-		<div class="lizContainer" style="z-index: 999;">
+		<p class="lizP2Intro">
+			GoodKredit - Payday Today - GiftBeam
+		</p>
+		<div class="lizContainer" id="customNav" style="z-index: 999; display: none;">
 			<div>
 				<img class="lizImg" src="img/110143140.png" alt="profile">
 				<div class="lizTxtCont">
@@ -41,8 +44,8 @@
 			<div ng-include="'html/pdy-flutter.html'"></div> 
 		</div>
 
-		<div class="lizContainer1" style="margin-top: 35px;">
-			<p class="lizh2">GiftBeam</p>
+		<div ng-controller="GBAppCtrl" style="margin-top: 35px;">
+			<div ng-include="'html/gbhtml.html'"></div> 
 		</div>
 	
 		<div class="lizContainer1" style="margin-top: 35px;">
@@ -58,5 +61,6 @@
 	<script src="js/liz-angular.js"></script>
 	<script src="js/liz-angular-pdy.js"></script>
 	<script src="js/liz-angular.pdy-flut.js"></script>
+	<script src="js/liz-angular-gb.js"></script>
   </body>
 </html>

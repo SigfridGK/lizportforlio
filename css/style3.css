@@ -126,3 +126,50 @@ liss {
 	float: left;
 	margin: 5px 2.5px;
 }
+
+
+.lizBGImg {
+	width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg.jpg'); 
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 9999;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.21);
+}
+
+.introContainer{
+	width: 100%;
+    height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(155, 200, 245, 0.7);
+}
+
+.lizP1Intro{
+	padding: 100px;
+	margin: 0px 70px;
+	font-weight: 900;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 40pt;
+	text-align: center;
+}
+
+
+.lizP2Intro{
+	padding: 25px 100px;
+	width: 100%;
+	font-weight: 900;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 32pt;
+	text-align: center;
+	color: #999;
+}
+
+.center {
+	margin: auto;
+}
