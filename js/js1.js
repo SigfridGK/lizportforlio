@@ -12,7 +12,6 @@ window.addEventListener("scroll", (event) => {
         $("#addShad").fadeOut(200);
     }
 
-
-    var opacityVal = (window.innerHeight - scroll) / 100
+    var opacityVal = (window.innerHeight - (scroll + 100)) / 100
     $("#lizBGImg").css('opacity', opacityVal);
 });

@@ -151,14 +151,16 @@ liss {
 }
 
 .lizP1Intro{
-	padding: 100px;
-	margin: 0px 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 32vh;
+	padding-bottom: 135px;
+	margin: auto;
 	font-weight: 900;
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 40pt;
 	text-align: center;
 }
-
 
 .lizP2Intro{
 	padding: 25px 100px;
@@ -167,9 +169,196 @@ liss {
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 27pt;
 	text-align: center;
-	color: #aaa	;
+	color: #aaa;
 }
 
 .center {
+	opacity: 0.85;
+	position: relative;
 	margin: auto;
+	width: 1005px;
+}
+
+.skillsImg {
+	border-radius: 5px;
+	width: 120px;
+    height: 85px;
+	background-color: #fff;
+	background-size: contain;
+    background-position: center center;     
+	background-repeat: no-repeat;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 2px 0 rgba(0, 0, 0, 0.21);
+}
+
+@media screen and (max-width: 400px) {
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.lizP1Intro{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 70px;
+		padding-bottom: 90px;
+		margin: auto;
+		font-size: 27pt;
+	}
+	
+	.center {
+		opacity: 0.85;
+		position: relative;
+		margin: 0px 7px;
+		width: 420px;
+	}
+	
+	.col-md-12 {
+		margin: 0;
+		padding: 0;
+	}
+
+	.skillsImg {
+		padding: 0;
+		margin: 0;
+		border-radius: 5px;
+		width: 85px;
+		height: 55px;
+	}
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px){
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.lizP1Intro{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 120px;
+		padding-bottom: 115px;
+		margin: auto;
+		font-size: 27pt;
+	}
+	
+	.center {
+		opacity: 0.85;
+		position: relative;
+		margin: auto;
+		width: 400px;
+	}
+	
+	.col-md-12 {
+		margin: 0;
+		padding: 0;
+	}
+
+	.skillsImg {
+		width: 95px;
+		height: 55px;
+	}
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 800px){
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.lizP1Intro{
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 120px;
+		padding-bottom: 115px;
+		margin: auto;
+		font-size: 32pt;
+	}
+	
+	.center {
+		opacity: 0.85;
+		position: relative;
+		margin: 0;
+		padding: 0;
+		width: 560px;
+	}
+	
+	.col-md-12 {
+		width: 100vw;
+		margin: 0;
+		padding: 0;
+	}
+
+	.skillsImg {
+		width: 105px;
+		height: 70px;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 980px){
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.lizP1Intro{
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 20vh;
+		padding-bottom: 115px;
+		margin: auto;
+		font-size: 32pt;
+	}
+	
+	.center {
+		opacity: 0.85;
+		position: relative;
+		margin: 0 30px;
+		width: 560px;
+	}
+	
+	.col-md-12 {
+		width: 100vw;
+		margin: 0;
+		padding: 0;
+	}
+
+	.skillsImg {
+		width: 105px;
+		height: 70px;
+	}
+}
+
+@media screen and (min-width: 984px) and (max-width: 1196px){
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.lizP1Intro{
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 23vh;
+		padding-bottom: 100px;
+		margin: auto;
+		font-size: 38pt;
+	}
+	
+	.center {
+		opacity: 0.85;
+		position: relative;
+		margin: 0 30px;
+		width: 896px;
+	}
+	
+	.col-md-12 {
+		width: 100vw;
+		margin: 0;
+		padding: 0;
+	}
+
+	.skillsImg {
+		width: 105px;
+		height: 70px;
+	}
 }
