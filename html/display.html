@@ -1,51 +1,20 @@
 <div class="lizDisplay" 
-	ng-style="texstt1 ? {'left': '0vw'} : {'left': '100vw'}">
+	ng-style="showDisplay ? {'left': '0vw'} : {'left': '100vw'}">
     <div class="container">
         <div class="row">
 			<div class="lizRowColStyle1">
 				<a href="#" ng-click="click1()" 
 					style="font-weight: 500; padding-top: 35px; font-size: 13.5pt;">Go Back</a>
-					<div id="gkItem" ng-controller="GBAppCtrl" >
-						<div class="container">
-							<div class="row">
-								<div class="col-md-7" style="margin-top: 35px;">
 					
-									<p class="lizP">Services</p>
-									<button class="lizMenuBtn" ng-click="click('https://streamable.com/e/o2gw19')">
-										Watch GiftBeam Login
-									</button>
-					
-									<ul>
-										<li ng-repeat="menu in menuList">
-											<button 
-												class="lizMenuBtn1" 
-												ng-class="{lizMenuBtnActive: menu.VidURL == activeVidURL}" 
-												ng-click="click(menu.VidURL)">
-												{{menu.AppName}}
-											</button>
-										</li> 
-									</ul>
-					
-									<p class="lizP2">Others--</p>
-									<ul style="margin-top: -20px">
-										<li ng-repeat="menu in otherVid">
-											<button 
-												class="lizMenuBtn1" 
-												ng-class="{lizMenuBtnActive: menu.VidURL == activeVidURL}" 
-												ng-click="click(menu.VidURL)">
-												{{menu.AppName}}
-											</button>
-										</li> 
-									</ul>
-								</div>
-					
-					
-								<div class="col-md-5" style="background-color: black; margin-top: 35px;">
-									<iframe ng-src="{{activeVidURL}}" frameborder="0" width="100%" height="100%" allowfullscreen class="lizVid" id="lizIframeVid">
-									</iframe>
-								</div>
-							</div>
-						</div>
+					<div ng-show="showingDisplay == 1">
+						<div ng-include="'html/pdy.html'"></div>
+					</div>
+					<div ng-show="showingDisplay == 2">
+						<div ng-include="'html/gkhtml.html'"></div>
+					</div>
+					<div ng-show="showingDisplay == 3">
+						<div ng-include="'html/gbhtml.html'"></div>
+					</div>
 			</div>
 		</div>
 	</div>

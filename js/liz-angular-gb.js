@@ -5,9 +5,11 @@ app.controller('GBAppCtrl', function($scope) {
         $scope.activeVidURL = url;
     }
 
-    $scope.texstt1 = false;
-    $scope.click1 = function(){
-        $scope.texstt1 = $scope.texstt1 == true ? false : true;
+    $scope.showingDisplay = 1;
+    $scope.showDisplay = false;
+    $scope.click1 = function(showing){
+        $scope.showingDisplay = showing;
+        $scope.showDisplay = $scope.showDisplay == true ? false : true;
     }
 
     $scope.menuList = [
