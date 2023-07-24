@@ -5,6 +5,11 @@ app.controller('GBAppCtrl', function($scope) {
         $scope.activeVidURL = url;
     }
 
+    $scope.texstt1 = false;
+    $scope.click1 = function(){
+        $scope.texstt1 = $scope.texstt1 == true ? false : true;
+    }
+
     $scope.menuList = [
         {
             AppName: "Gift Card Inventory",

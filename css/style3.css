@@ -24,6 +24,24 @@
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
+.lizImg3 {
+	margin-top: 35px;
+	margin-left: 70px;
+	width: 67%;
+    height: 500px;
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+}
+
+.lizTitleLbl {
+	padding-top: 20px;
+	padding-left: 15px;
+	margin-bottom: -15px;
+	font-size: 17pt;
+	font-weight: 700;
+}
+
 .lizVidContainer2{
 	border-radius: 3px;
 	width: 19.3%;
@@ -45,12 +63,18 @@
 }
 
 .lizRowColStyle{
+	height: 600px;
 	background-color: #fff;
-	border-radius: 3px;
+	border-radius: 7px;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
-
+.lizRowColStyle1{
+	height: 600px;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
   
 .lizMenu a {
 	display: block;
@@ -78,7 +102,6 @@
   transition: 0.3s;
 }
 .lizMenuBtn:hover {opacity: 1}
-
 
 .lizMenuBtn1 {
 	background-color: #fff;

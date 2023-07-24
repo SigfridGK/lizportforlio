@@ -20,9 +20,6 @@
 	</div>
 
 	<div class="lizContent">
-		<p class="lizP2Intro">
-			GoodKredit * Payday Today * GiftBeam
-		</p>
 		<div class="lizContainer" id="customNav" style="z-index: 999; display: none;">
 			<div>
 				<img class="lizImg" src="img/110143140.png" alt="profile">
@@ -34,7 +31,7 @@
 		</div>
 		<div class="shadd" id="addShad" style="z-index: 997;">
 		</div>
-
+<!-- 
 		<div ng-controller="GKAppCtrl" >
 			<div ng-include="'html/gkhtml.html'"></div> 
 		</div>
@@ -51,11 +48,17 @@
 			<div ng-include="'html/gbhtml.html'"></div> 
 		</div>
 	
-		<div class="lizContainer1" style="margin-top: 35px;">
-			<p class="lizh2">GiftBeam - Flutter </p>
+	 -->
+		<div ng-controller="GBAppCtrl"
+			class="lizContainer1" 
+			style="margin-top: 35px; position: relative">
+			
+			<div ng-include="'html/display.html'"></div>
+			<div ng-include="'html/homeselect.html'"></div> 
 		</div>
-	
-		<div class="lizFooter" style="margin-top: 85px;">
+
+		<div style="margin-top: 70px;">
+			<div ng-include="'html/footer.html'"></div> 
 		</div>
 	</div>
 
