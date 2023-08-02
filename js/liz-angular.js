@@ -36,14 +36,14 @@ app.controller('GKAppCtrl', function($scope) {
         //     AppName: "COOP and Apply COOP Loan",
         //     VidURL: ""
         // },
-        {
-            AppName: "GK Store",
-            VidURL: "https://streamable.com/e/dzliit"
-        },
-        {
-            AppName: "COOP Play To Save Lotto",
-            VidURL: "https://streamable.com/e/5t4f9k"
-        },
+        // {
+        //     AppName: "GK Store",
+        //     VidURL: "https://streamable.com/e/dzliit"
+        // },
+        // {
+        //     AppName: "COOP Play To Save Lotto",
+        //     VidURL: "https://streamable.com/e/5t4f9k"
+        // },
         // {
         //     AppName: "Free SMS",
         //     VidURL: ""
@@ -64,25 +64,25 @@ app.controller('GKAppCtrl', function($scope) {
         //     AppName: "E-Games",
         //     VidURL: ""
         // },
-        {
-            AppName: "GK Earn & PPl's Jeep Unli Ride",
-            VidURL: "https://streamable.com/e/8if2lk"
-        },
+        // {
+        //     AppName: "GK Earn & PPl's Jeep Unli Ride",
+        //     VidURL: "https://streamable.com/e/8if2lk"
+        // },
         
     ];
 
     $scope.otherVid = [
-        {
-            AppName: "QR Complete Transaction & View History",
-            VidURL: "https://streamable.com/e/vjsmqv"
-        },
-        {
-            AppName: "GK Support Chat",
-            VidURL: "https://streamable.com/e/rabjq6"
-        },
+        // {
+        //     AppName: "QR Complete Transaction & View History",
+        //     VidURL: "https://streamable.com/e/vjsmqv"
+        // },
+        // {
+        //     AppName: "GK Support Chat",
+        //     VidURL: "https://streamable.com/e/rabjq6"
+        // },
         {
             AppName: "Settings",
-            VidURL: "https://streamable.com/e/a4xlk0"
+            VidURL: "https://streamable.com/e/1bz5l5"
         },
     ];
 });
