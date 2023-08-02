@@ -1,5 +1,5 @@
 app.controller('PdyAppCtrl', function($scope) {
-    $scope.activeVidURL = "https://streamable.com/e/bfhx6h";
+    $scope.activeVidURL = "https://streamable.com/e/jv82u9";
 
     $scope.click = function(url){
         $scope.activeVidURL = url;
@@ -8,19 +8,19 @@ app.controller('PdyAppCtrl', function($scope) {
     $scope.menuList = [
         {
             AppName: "Payday Home",
-            VidURL: "https://streamable.com/e/e23pr3"
+            VidURL: "https://streamable.com/e/jv82u9"
         },
         {
             AppName: "Request Amount",
-            VidURL: "https://streamable.com/e/wcpr4p"
+            VidURL: "https://streamable.com/e/y5c3vy"
         },
         {
             AppName: "Bank Transfer",
-            VidURL: "https://streamable.com/e/v48pc2"
+            VidURL: "https://streamable.com/e/y5c3vy"
         },
         {
             AppName: "Services",
-            VidURL: "https://streamable.com/e/87s36z"
+            VidURL: "https://streamable.com/e/a34swa"
         }
     ];
 
@@ -28,6 +28,10 @@ app.controller('PdyAppCtrl', function($scope) {
         {
             AppName: "Complete Bank Transfer and Chat Support",
             VidURL: "https://streamable.com/e/k143rr"
+        },
+        {
+            AppName: "Paybills",
+            VidURL: "https://streamable.com/e/roucjj"
         },
     ];
 });

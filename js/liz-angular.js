@@ -9,7 +9,7 @@ var app = angular.module('myApp', [])
 });
 
 app.controller('GKAppCtrl', function($scope) {
-    $scope.activeVidURL = "https://streamable.com/e/gup0a8";
+    $scope.activeVidURL = "https://streamable.com/e/k7iztz";
 
     $scope.click = function(url){
         $scope.activeVidURL = url;
@@ -17,8 +17,12 @@ app.controller('GKAppCtrl', function($scope) {
 
     $scope.menuList = [
         {
-            AppName: "Buy Load & Pay Bills",
-            VidURL: "https://streamable.com/e/53pmbb"
+            AppName: "GK Home",
+            VidURL: "https://streamable.com/e/f6fmbn"
+        },
+        {
+            AppName: "Pay Bills",
+            VidURL: "https://streamable.com/e/od22vn"
         },
         {
             AppName: "Pay Via QR",
@@ -26,7 +30,7 @@ app.controller('GKAppCtrl', function($scope) {
         },
         {
             AppName: "Buy Voucher",
-            VidURL: "https://streamable.com/e/4xmy5x"
+            VidURL: "https://streamable.com/e/ezw7r3"
         },
         // {
         //     AppName: "COOP and Apply COOP Loan",
