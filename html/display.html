@@ -1,0 +1,24 @@
+<div class="lizDisplay" 
+	ng-style="showDisplay ? {'left': '0vw'} : {'left': '100vw'}">
+    <div class="container">
+        <div class="row">
+			<div class="lizRowColStyle1">
+				<a href="#" ng-click="click1()" 
+					style="font-weight: 500; padding-top: 35px; font-size: 13.5pt;">Go Back</a>
+					
+					<div ng-show="showingDisplay == 1">
+						<div ng-include="'html/pdy.html'"></div>
+					</div>
+					<div ng-show="showingDisplay == 2">
+						<div ng-include="'html/gkhtml.html'"></div>
+					</div>
+					<div ng-show="showingDisplay == 4">
+						<div ng-include="'html/gbhtml.html'"></div>
+					</div>
+					<div ng-show="showingDisplay == 3">
+						<div ng-include="'html/nativehtml.html'"></div>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>

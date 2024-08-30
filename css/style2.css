@@ -1,0 +1,103 @@
+
+.lizh2 {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+	font-size: 17pt;
+}
+
+.lizP {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+	font-size: 14pt;
+	color: #777777;
+}
+
+.lizP2 {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 500;
+	font-size: 12pt;
+	color: #777777;
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0px 0px 5px 0px hsla(0, 0%, 0%, 1);
+    }
+
+    100% {
+        box-shadow: 0px 0px 2px 0px hsla(0, 0%, 0%, 0);
+    }
+}
+
+.shadow-pulse {
+    animation-name: shadowPulse;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.shadd {
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+	height: 113px;
+}
+
+.lizVidContainer1{
+	border-radius: 3px;
+	width: 20%;
+	display: inline-block;
+	background-color: #fff;
+	border: #cbcbcb;
+	border-width: 0.5;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.lizVid{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%; 
+	height:500px; 
+	display: block;
+}
+
+.lizVid2{
+	width: 100%; 
+	height:500px; 
+}
+
+.lizImgContainer{
+	border-radius: 3px;
+	display: block;
+	height: 300px;
+	border: #cbcbcb;
+	border-width: 0.5;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.lizAppImg{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 250px; 
+	height: 250px;
+	display: block;
+}
+
+.lizAppImg{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+	width: 100%;
+	overflow: hidden; 
+	height: 450px;
+}
