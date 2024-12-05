@@ -9,7 +9,7 @@ var app = angular.module('myApp', [])
 });
 
 app.controller('GKAppCtrl', function($scope) {
-    $scope.activeVidURL = "https://streamable.com/e/gxg7xc";
+    $scope.activeVidURL = "https://streamable.com/e/8ukijh";
 
     $scope.click = function(url){
         $scope.activeVidURL = url;
@@ -18,38 +18,38 @@ app.controller('GKAppCtrl', function($scope) {
     $scope.menuList = [
         {
             AppName: "GK Home",
-            VidURL: "https://streamable.com/e/gxg7xc"
+            VidURL: "https://streamable.com/e/8ukijh"
         },
         {
             AppName: "Pay Bills",
-            VidURL: "https://streamable.com/e/w0mxuj"
+            VidURL: "https://streamable.com/e/3qurao"
         },
         {
             AppName: "Buy Load and Mobile Data",
-            VidURL: "https://streamable.com/e/w31kld"
+            VidURL: "https://streamable.com/e/zi5wq1"
         },
         {
             AppName: "Pay Via QR",
-            VidURL: "https://streamable.com/e/y3qp3q"
+            VidURL: "https://streamable.com/e/0hfi4q"
         },
         {
             AppName: "Buy Voucher",
-            VidURL: "https://streamable.com/e/2sermy"
+            VidURL: "https://streamable.com/e/5vlqy6"
         },
         {
             AppName: "COOP Play To Save Lotto",
-            VidURL: "https://streamable.com/e/108vc1"
+            VidURL: "https://streamable.com/e/9zr7la"
         },
         {
             AppName: "Payday Today",
-            VidURL: "https://streamable.com/e/w34s3p"
+            VidURL: "https://streamable.com/e/9creh0"
         },
     ];
 
     $scope.otherVid = [
         {
             AppName: "Settings",
-            VidURL: "https://streamable.com/e/3bi0vc"
+            VidURL: "https://streamable.com/e/nxuu9o"
         },
     ];
 });

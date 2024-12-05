@@ -1,5 +1,5 @@
 app.controller('NativeAppCtrl', function($scope) {
-    $scope.activeVidURL = "https://streamable.com/e/7ufqyv";
+    $scope.activeVidURL = "https://streamable.com/e/riwcgf";
     
     $scope.click = function(url){
         $scope.activeVidURL = url;
@@ -8,22 +8,22 @@ app.controller('NativeAppCtrl', function($scope) {
     $scope.menuList = [
         {
             AppName: "Home",
-            VidURL: "https://streamable.com/e/3p0kg2"
+            VidURL: "https://streamable.com/e/2r8esc"
         },
         {
             AppName: "Textbook",
-            VidURL: "https://streamable.com/e/go8bf3"
+            VidURL: "https://streamable.com/e/fs9dby"
         },
         {
             AppName: "Lesson Booking",
-            VidURL: "https://streamable.com/e/03i0we"
+            VidURL: "https://streamable.com/e/sufizc"
         },
     ];
 
     $scope.otherVid = [
         {
             AppName: "Settings",
-            VidURL: "https://streamable.com/e/8bzsmj"
+            VidURL: "https://streamable.com/e/t97bqx"
         },
     ];
 });
